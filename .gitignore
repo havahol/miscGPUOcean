@@ -1,3 +1,6 @@
+# Output folders
+realWorldSim/2023-02*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
