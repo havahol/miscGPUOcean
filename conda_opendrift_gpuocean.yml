@@ -1,6 +1,6 @@
 # Assumes that conda, pip and build-essentials are installed
 ---
-name: gpuocean_opendrift
+name: gpuocean-opendrift
 channels:
 - conda-forge
 
@@ -22,11 +22,12 @@ dependencies:
 - requests
 - pip
 - pytools
-- scikit-learn
 - cartopy
 - ffmpeg
 - opendrift
 - xarray
+- typing_extensions
+
 # Activate environment and install the following packages using pip:
 # $ conda activate gpuocean_opendrift
 #  - pycuda: $ pip3 install --no-deps -U pycuda
